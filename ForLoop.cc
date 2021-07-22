@@ -4,7 +4,8 @@ using namespace std;
 int main(){
     int n1, n2;
     cin>>n1>>n2;
-    for (int i = n1; i <= 9; i++)
+    if (n1>=1 || 9>=n2){
+    for (int i = n1; i <= n2; i++)
     {
         if (i==1)
         {
@@ -43,6 +44,7 @@ int main(){
             cout<<"nine"<<endl;
         }
     }
+}
 
     for (int i = 10; i<=n2; i++)
     {
